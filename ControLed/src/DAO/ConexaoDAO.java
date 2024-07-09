@@ -34,7 +34,7 @@ public class ConexaoDAO {
         return new String(readBuffer);
     }
     
-    public static void istaPortas() {
+    public static void listaPortas() {
         // Obtém uma lista de portas seriais disponíveis
         SerialPort[] ports = SerialPort.getCommPorts();
 
